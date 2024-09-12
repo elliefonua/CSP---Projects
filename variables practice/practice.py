@@ -1,10 +1,10 @@
-Name="Ellie"
-print=(Name)
-SmlNum="7"
-print=(SmlNum)
-LrgeNum="68"
-print=(LrgeNum)
-Brkfst="Cheerios"
+Name = "Ellie"
+print = (Name)
+SmlNum = "7"
+print = (SmlNum)
+LrgeNum = "68"
+print = (LrgeNum)
+Brkfst = "Cheerios"
 print=(Brkfst)
 Colr="Red"
 print=(Colr)
