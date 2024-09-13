@@ -1,20 +1,20 @@
 Name = "Ellie"
-print = (Name)
+print (Name)
 SmlNum = "7"
-print = (SmlNum)
+print (SmlNum)
 LrgeNum = "68"
-print = (LrgeNum)
+print (LrgeNum)
 Brkfst = "Cheerios"
-print=(Brkfst)
+print (Brkfst)
 Colr="Red"
-print=(Colr)
+print (Colr)
 Schl="Ucas"
-print=(Schl)
+print (Schl)
 Year="2024"
-print=(Year)
+print (Year)
 EyeColor="Brown"
-print=(EyeColor)
+print (EyeColor)
 Age="14"
-print=(Age)
+print (Age)
 SchlSubject="Seminary"
-print(SchlSubject)
+print (SchlSubject)
