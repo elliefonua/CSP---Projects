@@ -4,10 +4,10 @@
 int main(void){
     char lname[] = "Ellie";
     char prefix[] = "<<<";
-    char fname[] = ">>>"
-    strcat(prefix, fname);
-    printf(prefix, lname, fname)
-    strcat(prefix, lname)
-    printf("%s", prefix);
+    char fname[] = ">>>";
+    strcat(prefix, lname);
+    printf(prefix, fname);
+    strcat(lname, fname);
+    printf("%s", fname);
     return 0;
 }

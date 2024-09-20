@@ -1,6 +1,6 @@
 print("Hello! This is a financail caculator!")
 income = float(input("how much do you make a month?:\n"))
-rent = float(input("how much doess your rent cost?:\n"))
+rent = float(input("how much does your rent cost?:\n"))
 utilities = float(input("what does your utilities cost?:\n"))
 groceries = float(input("how much does your groceries cost?:\n"))
 trasnportation = float(input("how much does your trasportation cost:\n"))
