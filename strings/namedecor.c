@@ -2,8 +2,9 @@
 #include <string.h>
 
 int main(void){
-    char fname[30] = "Ellie";
+    char fname[30] = input();
     char capSix[40] = "###";
+    printf("Hello, what is your name?\n");
     strcat(fname, "###");
     strcat(capSix, fname);
     printf("Hello %s \n", capSix);

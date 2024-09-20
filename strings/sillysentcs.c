@@ -7,11 +7,11 @@ int main(void){
     char verb[20];
     char sentence[400] = "The ";
     printf("Name an animal: \n");
-    fgets(animal, sizeof(animal), stdin);
+    scanf("%s", animal);
     printf("Name a place: \n");
-    fgets(place, sizeof(place), stdin);
+    scanf("%s", place);
     printf("Name a past tense verb: \n");
-    fgets(verb, sizeof(verb), stdin);
+    scanf("%s", verb);
     strcat(sentence, animal);
     strcat(sentence, " went to the ");
     strcat(sentence, place);

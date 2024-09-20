@@ -1,3 +1,6 @@
 print("Hello, what is your name?")
 name = input()
-print("<<<",name+">>>")
+print("<<<",name+" >>>")
+print("^^^",name+" ^^^")
+print(":)",name+" (:")
+print("")
