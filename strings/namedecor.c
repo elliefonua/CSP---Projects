@@ -2,12 +2,10 @@
 #include <string.h>
 
 int main(void){
-    char lname[] = "Ellie";
-    char prefix[] = "<<<";
-    char fname[] = ">>>";
-    strcat(prefix, lname);
-    printf(prefix, fname);
-    strcat(lname, fname);
-    printf("%s", fname);
+    char fname[30] = "Ellie";
+    char capSix[40] = "###";
+    strcat(fname, "###");
+    strcat(capSix, fname);
+    printf("Hello %s \n", capSix);
     return 0;
 }
