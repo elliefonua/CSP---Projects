@@ -1,9 +1,14 @@
 #include <stdio.h>
-void percent(char, typeof[], char amount){
-char name[] = input();
+
+void name(char name[]){
+    printf("hello %s\n", name);
 }
 
 int main(void){
-    printf(name);
+    name("Ellie!");
+    name("Rizzler!");
+    name("Lindsey");
+    name("Sophia!");
+    name("Sawyer!");
     return 0;
 }
