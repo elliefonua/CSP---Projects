@@ -27,5 +27,8 @@ int main(void){
     psavings = savings/income *100;
     pexpenses = expenses/income *100;
     printf("Your rent is %d%% for your income.", (int) prent);
+    printf("Your utilities is %d%% for your income.", (int) putilities);
+    printf("Your rent is %d%% for your income.", (int) prent);
+    printf("Your rent is %d%% for your income.", (int) prent);
     return 0;
 }
