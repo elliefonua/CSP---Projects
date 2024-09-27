@@ -1,37 +1,39 @@
-def input_value(type):
-    var = float(input(f"monthly {type}:\n"))
-    return var
+income = float(input("how much do you make a month?:\n"))
+rent = float(input("how much does your rent cost?:\n"))
+utilities = float(input("what does your utilities cost?:\n"))
+groceries = float(input("how much does your groceries cost?:\n"))
+trasnportation = float(input("how much does your trasportation cost:\n"))
+savings = income*0.2
+expenses= rent + utilities + groceries + trasnportation
+spending = income-expenses-savings
 
-def percent(type, amount, income):
-    per = (amount / income) * 100
-    print(f"your {type} is {per:.0f}% of your income.")
+def input(type, amount):
+    var = type
+    
+    return f"what is your monthly {type}?:\n", amount
 
-def main():
-    print("Hello, this is your financial calculator!")
-    income = input_value("income")
-    rent = input_value("rent")
-    utilities = input_value("utilities")
-    groceries = input_value("groceries")
-    transportation = input_value("transportation")
-   
-    # Calculations
-    expenses = rent + utilities + groceries + transportation
-    savings = income * 0.20  # 20% savings
-    spend = income - expenses - savings
-   
-    # Output results
-    print(f"Your monthly income is ${income:.2f}")
-    print(f"Your monthly expenses are ${expenses:.2f}")
-    print(f"Your monthly savings is ${savings:.2f}")
-    print(f"Your monthly spending money is ${spend:.2f}")
-   
-    percent("rent", rent, income)
-    percent("utilities", utilities, income)
-    percent("groceries", groceries, income)
-    percent("transportation", transportation, income)
-    percent("savings", savings, income)
-    percent("expenses", expenses, income)
-    percent("spend", spend, income)
+print(input("you make", income))
+print(input("your rent is", rent))
+print(input("your utilities are", utilities))
+print(input("your groceries are", groceries))
+print(input("your transportation is", trasnportation))
+print(input("your savings are", savings))
+print(input("your expenses are", expenses))
+print(input("your spending money is", spending))
 
-if __name__ == "__main__":
-    main()
+def percent(type, amount):
+    per = amount/income *100
+
+    return f"Your {type} is {per}% income."
+
+print("your expenses are", expenses)
+print("your rent is", rent)
+print("your utilities are", utilities)
+print("your groceries are", groceries)
+print("your trasnportation cost is", trasnportation)
+print(percent("rent", rent))
+print(percent("utilities", utilities))
+print(percent("groceries", groceries))
+print(percent("transportation", trasnportation))
+print(percent("savings", savings))
+print(percent("expenses", expenses))
