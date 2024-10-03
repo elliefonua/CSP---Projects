@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include <time.h>
 
+time_t now;
+struct tm *timeinfo;
+
 int hour;
 
-int main ()
-{
+int main (){
     time_t rawtime;
-    struct tm *timeinfo;
+    struct tm *now_tm;
 
+    now = time(NULL);
+    now_tm = localtime(&now);
+    hour = now_tm->tm_hour;
     time(&rawtime);
     timeinfo = localtime (&rawtime);
     printf("current local time and date: %s", asctime(timeinfo));
