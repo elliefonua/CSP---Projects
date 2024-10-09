@@ -1,4 +1,3 @@
-print("Hello! This is a financial caculator!")
 income = float(input("how much do you make a month?:\n"))
 rent = float(input("how much does your rent cost?:\n"))
 utilities = float(input("what does your utilities cost?:\n"))
@@ -7,6 +6,12 @@ trasnportation = float(input("how much does your trasportation cost:\n"))
 savings = income*0.2
 expenses= rent + utilities + groceries + trasnportation
 spending = income-expenses-savings
+
+def input_value(type, amount):
+    val = input()
+
+    return f"what is your monthly {type}?"
+
 
 def percent(type, amount):
     per = amount/income *100
