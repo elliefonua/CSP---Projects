@@ -1,10 +1,8 @@
-import random
 
-count = 0
+i = int()
 
-num = random.randint(1, 21)
+for i=0;i<=50;i++
+    
+if i%3==0 and i%5==0
 
-while count < num:
-    print("")
-    count+=1
-    print(" ")
+elif i%3==0
