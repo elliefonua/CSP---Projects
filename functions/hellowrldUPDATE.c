@@ -7,7 +7,7 @@ void name(char name[]){
 int main(void){
     name("Ellie!");
     name("Rizzler!");
-    name("Lindsey");
+    name("Lindsey!");
     name("Sophia!");
     name("Sawyer!");
     return 0;
