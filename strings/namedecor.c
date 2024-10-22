@@ -1,11 +1,19 @@
 #include <stdio.h>
-#include <string.h>
+
 
 int main(void){
-    char fname[30] = "Ellie";
-    char capSix[40] = "###";
-    strcat(fname, "###");
-    strcat(capSix, fname);
-    printf("Hello %s \n", capSix);
-    return 0;
+
+char name[30]; 
+printf("What is your name?: \n");
+scanf("%s", name);
+printf("<<<%s>>>\n", name);
+printf(":) :)%s(: (:\n", name);
+printf("---%s---\n", name);
+printf("(((%s)))\n", name);
+printf("###%s###\n", name);
+printf("+++%s+++\n", name);
+printf("===%s===\n", name);
+
+return 0;
+
 }
